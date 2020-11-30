@@ -33,7 +33,6 @@ func reflectTest02(b interface{}) {
 	//1.先获取到reflect.Type
 	rTyp := reflect.TypeOf(b)
 	fmt.Println("rType=", rTyp)
-	fmt.Println("rType=", rTyp)
 
 	//2.获取到reflect.Value
 	rVal := reflect.ValueOf(b)
